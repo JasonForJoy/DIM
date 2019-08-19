@@ -13,7 +13,7 @@ Our proposed Dually Interactive Matching Network (DIM) has achieved a new state-
 Python 2.7 <br>
 Tensorflow 1.4.0
 
-## Datasets
+## Dataset
 Your can download the PERSONA-CHAT dataset [here](https://drive.google.com/open?id=1gNyVL5pSMO6DnTIlA9ORNIrd2zm8f3QH) or from [ParlAI](https://parl.ai/) and unzip it to the folder of ```data```. <br>
 Run the following commands and the processed files are stored in ```data/personachat_processed/```. <br>
 Download the embedding and vocab files [here](https://drive.google.com/open?id=1gGZfQ-m7EGo5Z1Ts93Ta8GPJpdIQqckC) and unzip them to the folder of ```data/personachat_processed/```.
@@ -33,7 +33,7 @@ The training process is recorded in ```log_DIM_train.txt``` file.
 ```
 bash test.sh
 ```
-The testing process is recorded in ```log_DIM_test.txt``` file. And your can get a ```persona_test_out.txt``` file which records scores for each context-response pair. Run the following command your can compute the metric of Recall.
+The testing process is recorded in ```log_DIM_test.txt``` file. And your can get a ```persona_test_out.txt``` file which records scores for each context-response pair. Run the following command and you can compute the metric of Recall.
 ```
 python compute_recall.py
 ```
