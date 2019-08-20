@@ -48,8 +48,8 @@ Jia-Chen Gu, Zhen-Hua Ling, Xiaodan Zhu, Quan Liu. _EMNLP (2019)_
   title     = "Dually Interactive Matching Network for Personalized Response Selection in Retrieval-Based Chatbots",
   author    = "Gu, Jia-Chen and
                Ling, Zhen-Hua and
-               Xiaodan Zhu and
-               Quan Liu",
+               Zhu Xiaodan and
+               Liu Quan",
   booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
   year      = "2019",
   address   = "Hong Kong, China",
