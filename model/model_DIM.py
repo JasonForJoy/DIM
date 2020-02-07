@@ -280,7 +280,7 @@ class DIM(object):
             # aggregate persona across persona_len
             final_personas_max = tf.reduce_max(personas_output_cross_pr, axis=1)                        # [batch_size*max_response_num*max_persona_num, 2*rnn_size]
             final_personas_state = tf.concat(axis=1, values=[p_pr_rnn_state[0].h, p_pr_rnn_state[1].h]) # [batch_size*max_response_num*max_persona_num, 2*rnn_size]
-            final_personas = tf.concat(axis=1, values=[final_personas_max, final_personas_max])         # [batch_size*max_response_num*max_persona_num, 4*rnn_size]
+            final_personas = tf.concat(axis=1, values=[final_personas_max, final_personas_state])       # [batch_size*max_response_num*max_persona_num, 4*rnn_size]
 
             # aggregate persona across persona_num
             # 1. RNN aggregation
